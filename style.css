@@ -7,3 +7,13 @@ h1{
 h2{
   font-family: 'Times New Roman', Times, serif;
 }
+.itemDescription {
+  font-weight: 200;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+}
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
