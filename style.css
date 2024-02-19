@@ -21,11 +21,15 @@ body {
 
 /* Header styles */
 h1 {
-  color: #0d0d0d;
+  color: darkblue;
+  font-size: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 h2 {
-  color: #333;
+  color: darkblue;
+  font-size:35px;
 }
 
 /* Styling for menu items */
@@ -44,7 +48,9 @@ li a {
 }
 
 li a:hover {
-  color: #0056b3; /* Changes link color on hover for interactivity */
+  color: darkblue; /* Changes link color on hover for interactivity */
+  font-size: larger;
+  
 }
 
 /* Styling for reservation, about, and gallery links */
@@ -52,9 +58,10 @@ h3 a {
   color: #007bff; /* Sets link color */
   text-decoration: none; /* Removes underline from links */
   transition: background-color 0.3s ease-in-out;
+  font-size: 20px;
 }
 
 h3 a:hover {
-  background-color: #f8f9fa; /* Adds a background color on hover for interactivity */
-  padding: 2px; /* Adds padding to make the background color visible */
+  font-size: 23px;
+  color:darkblue;
 }
