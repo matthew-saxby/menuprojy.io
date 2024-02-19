@@ -1,19 +1,56 @@
 p {
   font-family: "Times New Roman", Times, serif;
 }
-h1{
-  font-family: 'Times New Roman', Times, serif;
-}
-h2{
-  font-family: 'Times New Roman', Times, serif;
-}
 .itemDescription {
   font-weight: 200;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-style: italic;
 }
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header styles */
+h1 {
+  color: #0d0d0d;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Styling for menu items */
 li {
+  list-style-type: none; /* Removes the default list bullet */
+  padding: 8px;
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+li a {
+  text-decoration: none; /* Removes underline from links */
+  color: #007bff; /* Sets link color */
+  transition: color 0.3s ease-in-out;
+}
+
+li a:hover {
+  color: #0056b3; /* Changes link color on hover for interactivity */
+}
+
+/* Styling for reservation, about, and gallery links */
+h3 a {
+  color: #007bff; /* Sets link color */
+  text-decoration: none; /* Removes underline from links */
+  transition: background-color 0.3s ease-in-out;
+}
+
+h3 a:hover {
+  background-color: #f8f9fa; /* Adds a background color on hover for interactivity */
+  padding: 2px; /* Adds padding to make the background color visible */
 }
